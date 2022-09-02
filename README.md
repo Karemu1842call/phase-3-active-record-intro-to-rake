@@ -111,7 +111,7 @@ Rake task, `hola`:
 ```rb
 desc 'outputs hola to the terminal'
 task :hola do
-  puts "hola desde Rake!"
+  puts "hola de Rake!"
 end
 ```
 
@@ -126,7 +126,7 @@ desc 'outputs hello to the terminal'
 
   desc 'outputs hola to the terminal'
   task :hola do
-    puts "hola desde Rake!"
+    puts "hola de Rake!"
   end
 end
 ```
@@ -138,7 +138,7 @@ $ rake greeting:hello
 hello from Rake!
 
 $ rake greeting:hola
-hola desde Rake!
+hola de Rake!
 ```
 
 ## `bundle exec rake`
